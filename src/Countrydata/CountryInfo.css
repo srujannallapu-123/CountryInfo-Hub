@@ -1,0 +1,67 @@
+.headercontainer{
+   
+    flex-wrap: wrap;
+    
+}
+
+.countryinfoheader{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: rgb(107, 0, 139);
+    color: azure;
+    border-radius: 10px;
+    font-family: "Source Sans Pro",Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    font-size: 1rem;
+}
+
+.flaginfo{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    
+}
+
+.countrydetails{
+    background-color: rgb(208, 106, 28);
+    padding: 25px;
+    border-radius: 10px;
+    color:black;
+}
+
+.official-name {
+  font-family: "Source Sans Pro",Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    font-size: 1.8rem;
+    padding-bottom: 30px;
+}
+
+.currency-name {
+  font-family: "Source Sans Pro",Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    font-size: 1.5rem;
+}
+
+.currency-symbol {
+  font-family: "Source Sans Pro",Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    font-size: 1.5rem;
+}
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 8px 14px;
+  background-color: #2a72d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.back-button:hover {
+  background-color: #2aa73d;
+}
