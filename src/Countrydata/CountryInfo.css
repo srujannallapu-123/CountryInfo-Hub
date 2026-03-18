@@ -1,5 +1,5 @@
 .headercontainer{
-   display: flex;
+  
     flex-wrap: wrap;
     
 }
@@ -36,6 +36,7 @@
     -webkit-font-smoothing:antialiased;
     font-size: 1.8rem;
     padding-bottom: 30px;
+  
 }
 
 .currency-name {
